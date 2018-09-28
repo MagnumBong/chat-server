@@ -7,7 +7,6 @@ class Server:
 
     def __init__(self):
         self.login_data = json.load(open('./data/login.json'))
-        net_startup()
 
     async def net_startup():
         print("Starting websocket...")
@@ -28,4 +27,4 @@ class Server:
     async def authenticate_login(self):
         pass
 
-Server()
+Server().net_startup()
