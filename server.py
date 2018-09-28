@@ -27,5 +27,5 @@ class Server:
 
     async def authenticate_login(self):
         pass
-        
+
 Server()
