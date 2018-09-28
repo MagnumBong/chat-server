@@ -27,4 +27,4 @@ class Server:
     async def authenticate_login(self):
         pass
 
-Server.net_startup()
+await Server.net_startup()
